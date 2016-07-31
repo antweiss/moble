@@ -3,7 +3,7 @@
  * Module dependencies.
  */
 
-
+//db
 require( './db' );
 var express = require('express');
 var routes = require('./routes');
@@ -20,8 +20,6 @@ var bodyParser = require('body-parser');
 var errorHandler = require('errorhandler');
 
 var app = express();
-
-
 
 // all environments
 app.set('port', process.env.PORT || 3000);
